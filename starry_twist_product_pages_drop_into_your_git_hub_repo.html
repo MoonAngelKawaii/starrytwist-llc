@@ -1,0 +1,210 @@
+<!--
+How to use:
+1) In your GitHub repo (starrytwist-llc), add these files with the same paths.
+2) Commit & push. GitHub Pages will auto-build. 
+3) Update each BUY NOW link to your real Stripe Checkout URLs when ready.
+-->
+
+<!-- ========================= index.html (root) ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STARRY TWIST LLC — Digital goods</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="/">★ STARRY TWIST LLC</a>
+    <nav>
+      <a href="/products/">Products</a>
+      <a href="/policies.html">Policies</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Digital goods that help you move faster.</h1>
+    <p class="muted">Instant downloads • Secure Stripe checkout • No shipping needed</p>
+
+    <section class="grid">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=1200&auto=format&fit=crop" alt="Focus in 7 Days e-book" />
+        <div class="card-body">
+          <h3>Focus in 7 Days (E‑book, PDF)</h3>
+          <p>Actionable micro‑chapters + printable worksheets. Personal license.</p>
+          <div class="row"><span class="price">$9</span>
+            <a class="btn" href="/products/focus-ebook.html">View details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop" alt="Creator Toolkit" />
+        <div class="card-body">
+          <h3>Creator Toolkit (Notion & Canva)</h3>
+          <p>Content calendar, brief templates, and 20 ready‑to‑edit Canva post layouts.</p>
+          <div class="row"><span class="price">$19</span>
+            <a class="btn" href="/products/creator-toolkit.html">View details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1200&auto=format&fit=crop" alt="Lightroom presets" />
+        <div class="card-body">
+          <h3>Mobile Lightroom Presets (10‑pack)</h3>
+          <p>One‑tap looks for warm, crisp social photos. Includes quick‑start PDF.</p>
+          <div class="row"><span class="price">$12</span>
+            <a class="btn" href="/products/lightroom-presets.html">View details</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container footer">© <span id="y"></span> Starry Twist LLC • <a href="/policies.html">Policies</a></footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
+
+
+<!-- ========================= /products/index.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — STARRY TWIST</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container header"><a class="brand" href="/">★ STARRY TWIST LLC</a></header>
+  <main class="container">
+    <h1>All products</h1>
+    <ul class="list">
+      <li><a href="/products/focus-ebook.html">Focus in 7 Days (E‑book)</a></li>
+      <li><a href="/products/creator-toolkit.html">Creator Toolkit (Notion & Canva)</a></li>
+      <li><a href="/products/lightroom-presets.html">Mobile Lightroom Presets (10‑pack)</a></li>
+    </ul>
+  </main>
+</body>
+</html>
+
+
+<!-- ========================= /products/focus-ebook.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Focus in 7 Days — E‑book (PDF)</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <meta name="description" content="Actionable 7‑day guide with worksheets. Instant download PDF." />
+</head>
+<body>
+  <header class="container header"><a class="brand" href="/">★ STARRY TWIST LLC</a></header>
+  <main class="container product">
+    <h1>Focus in 7 Days (E‑book, PDF)</h1>
+    <p class="muted">Instant download • Personal license • PDF + worksheets</p>
+    <img class="hero" src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=1200&auto=format&fit=crop" alt="Focus in 7 Days cover" />
+    <p>
+      A practical, bite‑size program that helps you reset your routine in one week. Includes
+      printable worksheets and a simple daily plan.
+    </p>
+    <ul>
+      <li>60‑page PDF + 7 worksheets</li>
+      <li>Personal license (non‑commercial)</li>
+      <li>One‑time purchase, lifetime access</li>
+    </ul>
+    <div class="row">
+      <span class="price">$9</span>
+      <!-- Replace the href with your real Stripe Checkout link -->
+      <a class="btn" href="https://buy.stripe.com/test_123focus" target="_blank" rel="noopener">Buy now</a>
+    </div>
+  </main>
+</body>
+</html>
+
+
+<!-- ========================= /products/creator-toolkit.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creator Toolkit — Notion & Canva</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container header"><a class="brand" href="/">★ STARRY TWIST LLC</a></header>
+  <main class="container product">
+    <h1>Creator Toolkit (Notion & Canva)</h1>
+    <p class="muted">Content calendar • Brief templates • 20 Canva post layouts</p>
+    <img class="hero" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop" alt="Creator Toolkit" />
+    <p>
+      Plan, create, and ship content faster. Duplicate the Notion template and edit pre‑built Canva posts.
+    </p>
+    <ul>
+      <li>Notion workspace link</li>
+      <li>20 Canva templates (share links)</li>
+      <li>Quick‑start PDF guide</li>
+    </ul>
+    <div class="row">
+      <span class="price">$19</span>
+      <a class="btn" href="https://buy.stripe.com/test_123creator" target="_blank" rel="noopener">Buy now</a>
+    </div>
+  </main>
+</body>
+</html>
+
+
+<!-- ========================= /products/lightroom-presets.html ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Lightroom Presets — 10‑pack</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="container header"><a class="brand" href="/">★ STARRY TWIST LLC</a></header>
+  <main class="container product">
+    <h1>Mobile Lightroom Presets (10‑pack)</h1>
+    <p class="muted">One‑tap looks for warm, crisp photos. Includes install guide.</p>
+    <img class="hero" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1200&auto=format&fit=crop" alt="Lightroom presets" />
+    <ul>
+      <li>10 DNG preset files</li>
+      <li>PDF how‑to guide</li>
+      <li>Personal license</li>
+    </ul>
+    <div class="row">
+      <span class="price">$12</span>
+      <a class="btn" href="https://buy.stripe.com/test_123presets" target="_blank" rel="noopener">Buy now</a>
+    </div>
+  </main>
+</body>
+</html>
+
+
+<!-- ========================= styles.css (root) ========================= -->
+:root { --bg:#0b0f14; --fg:#e9eef5; --muted:#9aa5b1; --card:#131923; --brand:#ffd166; --accent:#6aa6ff; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell}
+.container{max-width:1100px;margin:auto;padding:20px}
+.header{display:flex;align-items:center;justify-content:space-between}
+.brand{color:var(--fg);text-decoration:none;font-weight:800}
+nav a{color:var(--muted);margin-left:14px;text-decoration:none}
+.h1,h1{font-size:34px;margin:18px 0}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:24px 0}
+.card{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.25)}
+.card img{width:100%;height:180px;object-fit:cover}
+.card-body{padding:16px}
+.row{display:flex;align-items:center;gap:12px;margin-top:8px}
+.price{font-weight:800}
+.btn{background:var(--accent);color:#000;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+.footer{color:var(--muted);font-size:14px;margin-top:40px;border-top:1px solid #1f2732;padding-top:20px}
+.product .hero{width:100%;max-height:360px;object-fit:cover;border-radius:14px;margin:12px 0}
+.list{line-height:2}
